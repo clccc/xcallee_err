@@ -1,10 +1,8 @@
 # coding:utf-8
 # -----------------------------
-# coded by cl in 2019-01-02
-# use the information entropy to measure the difference between the callee's constraint
-# and the other callees' constraints, and consider these callees whose measurement are bigger than a threshold value.
-# the measure progress will be calculated on every argument, and the sum of all arguments'entropy is the callee's
-# entropy. the argument' entropy is the average entropy of each pairs of the target callee with other callees.
+# 编码作者：cl
+# 更新时间：2019-12-05
+# 模块功能：异常行为判定，即引入信息熵判定异常的行为向量。
 # -----------------------------
 
 import math
